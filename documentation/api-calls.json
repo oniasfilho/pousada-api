@@ -1,0 +1,82 @@
+{
+	"user-related": [
+		// Register New User
+
+		// Get User By Id
+
+		// Get All Users
+
+		// Update User
+
+		// Delete User By Id
+		{
+
+		}
+	],
+
+	"room-related": [
+		// Register New Room
+
+		// Get Room By room_number
+
+		// Get All Rooms
+
+		// Update Room Info
+
+		// Delete Room By room_number
+	],
+
+	"booking-related": [
+		// Register New Booking
+
+		// Define Booking price based on Booking Info
+
+		// Get Booking By Id
+
+		// Get Bookings By user_id
+
+		// Get Bookings By Date Range
+
+		// Update Booking Details
+
+		// Delete Booking By Id
+
+		// Get All none-confirmed Bookings
+
+		// Get All confirmed Bookings
+	],
+
+	"availability-related": [
+		// Get all available rooms in a Date Range
+
+		// Get booking schedule of given room by room_number
+
+		// Freeze room for a given time frame
+
+		// Freeze whole property for a given time frame
+
+		// Get all rooms that fit x number of people within a given time frame
+
+	],
+
+	"payment-related": [
+		// Create new invoice
+
+		// Get all invoices by user_id
+
+		// Get all open invoices
+
+		// Get all closed invoices
+
+		// Get all invoices created within a given time frame
+
+		// Update invoice
+
+		// Close invoice
+
+		// Delete invoice
+	]
+	
+
+
+}
