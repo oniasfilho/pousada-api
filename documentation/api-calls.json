@@ -1,17 +1,139 @@
 {
 	"user-related": [
-		// Register New User
+	// Register New User
+		//Request
+		TYPE: POST,
+		URL: "/user",
+		REQUEST BODY:
+		{
+			"name": "",
+			"last_name": "",
+			"cpf": "",
+			"rg": "",
+			"passport": "",
+			"rne": "",
+			"birth_date": ""
+		}
+		//Response
+		RESPONSE BODY:
+		{
+			"id": "",
+			"name": "",
+			"last_name": "",
+			"cpf": "",
+			"rg": "",
+			"passport": "",
+			"rne": "",
+			"birth_date": ""
+		}
 
-		// Get User By Id
+	// Get User By Id
+		//Request
+		TYPE: GET,
+		URL: "/user/{id}",
+		REQUEST BODY: none,
 
-		// Get All Users
+		//Response
+		RESPONSE BODY:
+		{
+			"id": "",
+			"name": "",
+			"last_name": "",
+			"cpf": "",
+			"rg": "",
+			"passport": "",
+			"rne": "",
+			"birth_date": ""
+		}
+
+	// Get All Users
+		//Request
+		TYPE: GET,
+		URL: "/user",
+		REQUEST BODY:none,
+		//Response
+		RESPONSE BODY:
+		[
+			{
+				"id": "",
+				"name": "",
+				"last_name": "",
+				"cpf": "",
+				"rg": "",
+				"passport": "",
+				"rne": "",
+				"birth_date": ""
+			},
+			{
+				"id": "",
+				"name": "",
+				"last_name": "",
+				"cpf": "",
+				"rg": "",
+				"passport": "",
+				"rne": "",
+				"birth_date": ""
+			}
+		]
+
+	// Get User By Id
+		//Request
+		TYPE: GET,
+		URL: "/user/{id}",
+		REQUEST BODY: none,
+
+		//Response
+		RESPONSE BODY:
+		{
+			"id": "",
+			"name": "",
+			"last_name": "",
+			"cpf": "",
+			"rg": "",
+			"passport": "",
+			"rne": "",
+			"birth_date": ""
+		},
 
 		// Update User
+			//Request
+			TYPE: PUT,
+			URL: "/user",
+			REQUEST BODY:
+			{
+				"id": "",
+				"name": "",
+				"last_name": "",
+				"cpf": "",
+				"rg": "",
+				"passport": "",
+				"rne": "",
+				"birth_date": ""
+			},
+
+			//Response
+			RESPONSE BODY:
+			{
+				"id": "",
+				"name": "",
+				"last_name": "",
+				"cpf": "",
+				"rg": "",
+				"passport": "",
+				"rne": "",
+				"birth_date": ""
+			},
+
 
 		// Delete User By Id
-		{
-
-		}
+			//Request
+			TYPE: DELETE,
+			URL: "/user/{id}",
+			REQUEST BODY: none
+			//Response
+			{
+				{id}
+			}
 	],
 
 	"room-related": [
